@@ -115,7 +115,7 @@ resource "azurerm_virtual_machine" "catapp" {
     disable_password_authentication = false
   }
   tags = {
-    environment = "productionz"
+    environment = "production"
   }
 }
 
